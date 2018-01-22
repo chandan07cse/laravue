@@ -188,6 +188,7 @@ Now that we are almost set up our app. We'll now create some views for different
  2. About.vue
  3. Contact.vue
  4. FAQ.vue
+ 
  Codes inside Home.vue
  ```vue
  <template>
