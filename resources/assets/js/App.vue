@@ -12,7 +12,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><router-link to="/">Home</router-link></li>
+                        <li><router-link to="/" exact>Home</router-link></li>
                         <li><router-link to="/about">About</router-link></li>
                         <li><router-link to="/contact">Contact</router-link></li>
                         <li><router-link to="/faq">F.A.Q</router-link></li>
@@ -39,5 +39,8 @@
     }
     .container{
         margin-top:10px;
+    }
+    .active {
+        background-color: #a94442;
     }
 </style>

@@ -11,6 +11,7 @@ Vue.use(VueRouter);
 const router = new VueRouter({
     mode: 'history',
     fallback: true, //router should fallback to hash (#) mode when the browser does not support history.pushState
+    linkExactActiveClass: "active", // active class for *exact* links.
     routes:[
         { path:'/',component:Home },
         { path:'/about',component:About },

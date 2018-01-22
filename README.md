@@ -307,4 +307,9 @@ const router = new VueRouter({
 
 export default router
 ```
-Now go to your browser and have the spa ready for your eyes. Thanks ...
+Now go to your browser and have the spa ready for your eyes. 
+If you don't wanna use scss variables just remove it from sass folder and in app.scss just keep this
+```css
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+```
+Thanks ...

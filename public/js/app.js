@@ -2623,7 +2623,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "\n.navbar{\n    background-color: rgb(65, 184, 131);\n}\n.navbar-default .navbar-nav > li > a {\n    color: #fff;\n}\n.container{\n    margin-top:10px;\n}\n", ""]);
+exports.push([module.i, "\n.navbar{\n    background-color: rgb(65, 184, 131);\n}\n.navbar-default .navbar-nav > li > a {\n    color: #fff;\n}\n.container{\n    margin-top:10px;\n}\n.active {\n    background-color: #a94442;\n}\n", ""]);
 
 // exports
 
@@ -13746,7 +13746,11 @@ var render = function() {
             _c("ul", { staticClass: "nav navbar-nav" }, [
               _c(
                 "li",
-                [_c("router-link", { attrs: { to: "/" } }, [_vm._v("Home")])],
+                [
+                  _c("router-link", { attrs: { to: "/", exact: "" } }, [
+                    _vm._v("Home")
+                  ])
+                ],
                 1
               ),
               _vm._v(" "),
@@ -27827,6 +27831,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_
 var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
     mode: 'history',
     fallback: true, //router should fallback to hash (#) mode when the browser does not support history.pushState
+    linkExactActiveClass: "active", // active class for *exact* links.
     routes: [{ path: '/', component: __WEBPACK_IMPORTED_MODULE_2__views_Home_vue___default.a }, { path: '/about', component: __WEBPACK_IMPORTED_MODULE_3__views_About_vue___default.a }, { path: '/contact', component: __WEBPACK_IMPORTED_MODULE_4__views_Contact_vue___default.a }, { path: '/faq', component: __WEBPACK_IMPORTED_MODULE_5__views_FAQ_vue___default.a }]
 });
 
