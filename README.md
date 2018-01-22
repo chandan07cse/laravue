@@ -4,11 +4,10 @@ Laravel 5.5 &amp; Vue 2.* Starter Kit
 # Feature
 :small_blue_diamond: Laravel 5.5 & Vue 2 initial kit to start any Single Page Application(SPA)
 # :flashlight: First clone this repository 
-# For frontend dependencies run  
 ```
 git clone git@github.com:chandan07cse/laravue.git laravue-starter
 ```
-# To install backend dependencies run
+To install backend dependencies run
 ```
 composer install
 ```
