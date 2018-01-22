@@ -66,6 +66,7 @@ The basic syntax of a vue file comprises of 3 things
  1. Template : HTML Part
  2. Script : JS Part
  3. Style : CSS Part
+ 
 Sample App.vue file can be like this
 ```vue
 <template>
@@ -129,8 +130,8 @@ const router = new VueRouter({
 
 export default router
 ```
-:small_blue_diamond: Explanation : Here we've imported vue and vue router. We use vue router by  
-Vue.use(VueRouter)
+:small_blue_diamond: Explanation : Here we've imported vue and vue router. We use vue router by Vue.use(VueRouter).
+
 We've put history mode for removing hashbang url. We've also set true fallback for the browsers who doesn't
 support history push. We should also put the following code in routes/web.php for preventing not found message while page reload. 
 As a page reload event always hits the server.
