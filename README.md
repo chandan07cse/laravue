@@ -307,4 +307,4 @@ const router = new VueRouter({
 
 export default router
 ```
-Now go to your browser and have the spa ready for your eyes. Thanks 
+Now go to your browser and have the spa ready for your eyes. Thanks ...
