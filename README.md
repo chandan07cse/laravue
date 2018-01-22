@@ -1,4 +1,4 @@
-# laravue
+# Laravue Starter Kit
 :small_blue_diamond: Laravel 5.5 & Vue 2 initial kit to start any Single Page Application(SPA)
 # :flashlight: First clone this repository 
 ```
